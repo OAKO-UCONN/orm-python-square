@@ -12,6 +12,8 @@ class Square:
     def __str__(self):
         return "Square of dim " + str(self.dim)
     
+    def __add__(self):
+        
 
 x = Square(3)
 area_of_square = x.getArea()
