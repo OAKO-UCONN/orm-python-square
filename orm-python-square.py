@@ -13,3 +13,8 @@ class Square:
         return "Square of dim " + str(self.dim)
     
 
+x = Square(3)
+area_of_square = x.getArea()
+x.setArea(100)
+print(area_of_square)
+print(x)
